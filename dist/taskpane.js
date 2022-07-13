@@ -1,0 +1,2 @@
+!function(){var e=0;function n(){e++,document.getElementById("run").textContent="Task pane opened "+e+" times."}Office.onReady((function(){document.getElementById("sideload-msg").style.display="none",document.getElementById("app-body").style.display="flex",n(),Office.addin.onVisibilityModeChanged((function(e){"Taskpane"===e.visibilityMode&&n()}))}))}();
+//# sourceMappingURL=taskpane.js.map
